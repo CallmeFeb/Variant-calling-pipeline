@@ -1,0 +1,3 @@
+Type	Correct(TP)	Missed(FN)	Made_up(FP)
+snps	2642	12	2
+indels	417	15	2

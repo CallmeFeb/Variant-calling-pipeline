@@ -1,0 +1,20 @@
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 396514 sequences (58684072 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (26, 192498, 1, 1)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (186, 390, 549)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1275)
+[M::mem_pestat] mean and std.dev: (391.08, 243.17)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1638)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (452, 551, 649)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (58, 1043)
+[M::mem_pestat] mean and std.dev: (551.43, 153.77)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1240)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_pestat] skip orientation FF
+[M::mem_process_seqs] Processed 396514 reads in 62.501 CPU sec, 10.442 real sec
+[main] Version: 0.7.19-r1273
+[main] CMD: bwa mem -t 6 -R @RG\tID:NA12878\tSM:NA12878\tPL:ILLUMINA data/processed/chr20.fa data/processed/NA12878_R1.fastq.gz data/processed/NA12878_R2.fastq.gz
+[main] Real time: 14.812 sec; CPU: 63.791 sec

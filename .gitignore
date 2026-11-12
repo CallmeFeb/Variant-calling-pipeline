@@ -1,0 +1,18 @@
+#large data: downloaded or regnerated by the script
+data/
+
+#large or intermediate results
+results/compare/
+results/*.vcf.gz.csi
+results/*.vcf.gz.tbi
+results/*.vcf.gz
+results/*fastqc.zip
+
+#safety net
+*.bam
+*.gz
+*.bai
+
+# Editor and Python leftovers
+.vscode/
+__pycache__/
